@@ -26,7 +26,7 @@ public partial class Users : System.Web.UI.Page
     {
 
         Session["New"] = null;
-        Response.Redirect("UserLogin.aspx");
+        Response.Redirect("default.aspx");
 
 
     }
