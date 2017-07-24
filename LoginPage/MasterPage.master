@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+        
+      <table style="font-family:Arial">
+    <tr>
+        <td colspan="2" style="width:800px; height:80px; background-color:#; 
+            text-align:center">
+            <h1>
+                <img src="http://www.cma-cgm.com/static/Communication/ImgAboutUs/partir2.jpg" alt="cargo" height="200" width="800">
+
+            </h1>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:500px; background-color:#FFD433; width:150px">
+            <h3></h3>
+                <div class="container-fluid">
+    <!-- Second navbar for categories -->
+    <nav class="navbar navbar-default">
+      <div class="container">   
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="UserLogin.aspx">Home</a></li>
+            <li><a href="about.aspx">About</a></li>
+            <li><a href="service.aspx">Services</a></li>
+          </ul>
+        </div>
+        </td>
+        <td style="height:500px; background-color:; width:650px">
+             <h3></h3> 
+                 <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color:#FFD433; text-align:center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+
+    </form>
+</body>
+</html>
